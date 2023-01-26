@@ -1,0 +1,72 @@
+
+@import url(https://fonts.googleapis.com/css?family=Barlow+Condensed:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Barlow:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);
+
+body{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.heading{
+    color: white;
+    font-family: "Space Mono",cursive;
+    text-align: center;
+}
+
+.image-container{
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container img{
+    margin: 10px;   
+    border-radius: 10px;
+    background-color: purple ;
+    width: 300px;
+    height: 300px;
+}
+
+.btn{
+    padding: 5px;
+    margin: 20px;
+    font-size: 15px;
+    font-family: "Space Mono",cursive;
+    border: solid 2px white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(186, 0, 192);
+    color: white;
+    transition: all 0.4s;
+}
+
+.footer{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 100px;
+    padding: 3px ;
+    width: 100%;
+    background-color: purple;
+    
+}
+
+.footer a{
+    color: white;
+    font-family: "Space Mono",cursive;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
